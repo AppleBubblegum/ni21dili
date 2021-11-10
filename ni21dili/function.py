@@ -5,5 +5,5 @@ from PIL import Image
 
 def imshow(X, resize=None):
 	img = Image.fromarray(X)
-	img.resize(size=(resize[0], resize[1]))
+	img = img.resize(size=(resize[0], resize[1]))
 	return img
